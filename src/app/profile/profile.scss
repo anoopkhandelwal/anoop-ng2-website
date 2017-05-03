@@ -1,0 +1,82 @@
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color:#fff;
+}
+.bground-image{
+    //background-image: url("http://www.anishdua.com/wp-content/uploads/2016/07/Light-Grey-Background-Hd-5-1.jpg");
+    //background: navy !important;
+    background-color: #bdbdbd;
+    border-radius: 25px;
+}
+.bg-header-image{
+    background: url(http://fungyung.com/data/out/13/63997353-black-grey-wallpapers.png) no-repeat !important;
+    background-size:cover !important;
+
+}
+.f-left{
+    float: left;
+}
+.pt-20{
+    padding-top: 20px !important;
+}
+.pl-30{
+    padding-left: 30px !important;
+}
+.cursor-pointer{
+    cursor: pointer !important;
+}
+.custom-bullet li {
+    display: block;
+}
+.img-profile-resize{
+    width: 17%;
+
+}
+.f-right{
+    float: right;
+}
+.custom-bullet li:before
+{
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e080";
+    font-family: 'Glyphicons Halflings';
+    font-size: 9px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color: #CCCCCC;
+}
+.img-wrap{
+
+}
+.img-resize{
+    width: 10%;
+    height: 10%;
+    float: left;
+    padding-left:10px ;
+}
+.img-hover {
+    position: relative !important;
+    visibility: hidden;
+    opacity: 0;
+    /*remove comment if you want a gradual transition between states
+        -webkit-transition: visibility opacity 0.2s;
+        */
+}
+.img-wrap:hover .img-hover{
+    visibility: visible;
+    opacity: 1;
+}
+.skills-img-size{
+    display: inline-block;
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.main-container{
+    background: url(https://media.giphy.com/media/siztDuiPMX8U8/giphy.gif) no-repeat !important;
+    background-size: cover !important;
+}

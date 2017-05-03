@@ -1,0 +1,68 @@
+<div>
+    <div class="container panel panel-default">
+
+        <div class="bg-header-image">
+            <div>
+                <img src="../../images/profile.jpg" class="img-profile-resize f-right">
+            </div>
+
+            <div class="panel-body text-center text-white">
+                <h1>{{nameHeader}}</h1>
+                <h2>{{position}}</h2>
+            </div>
+
+        </div>
+
+        <div class="panel-group pt-20" id="accordion">
+
+            <!--Introduction-->
+            <div class="panel panel-info">
+
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#summary-component">
+                            About Me:
+                        </a>
+                    </h4>
+                </div>
+                <div id="summary-component" class="panel-collapse collapse">
+                    <summary-comp></summary-comp>
+                </div>
+            </div>
+
+            <!--Work Experience-->
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#experience">Work Experience</a>
+                    </h4>
+                </div>
+                <div id="experience" class="panel-collapse collapse">
+                    <experience-comp></experience-comp>
+                </div>
+            </div>
+
+            <!--Skills-->
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#skills">Skills</a>
+                    </h4>
+                </div>
+                <div id="skills" class="panel-collapse collapse in">
+                    <skills-comp></skills-comp>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="footer panel-footer">
+
+            <footer-comp></footer-comp>
+
+        </div>
+
+    </div>
+</div>
